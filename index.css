@@ -1,0 +1,30 @@
+#container {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "header"
+                        "nav";
+}
+body {
+  background-image: url("https://3.bp.blogspot.com/-H0j_m392SRQ/W-vyNTvBPTI/AAAAAAAAAIk/J8b0LP6AlFIT4Zh_G3kLSzbDux_WVqc9gCHMYCw/s1600/dark-abstract-wallpapers-wallpaper-cave.jpg");
+}
+header {
+  grid-area: header;
+  width: 90%;
+  height: 500%;
+  background-color: pink;
+}
+#nav{
+  grid-area: nav;
+  background-color: pink;
+  width: 90%;
+  height: 500%;
+}
+h1 {
+  /* position: absolute;
+  bottom: 77%;
+  right: 45%; */
+  color: white;
+  font-size: 60px;
+}
